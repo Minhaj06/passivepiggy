@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passive Piggy Banks</title>
+
+    <!-- ########### CSS Links Start ########## -->
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- ########### CSS Links End ########## -->
+
+    <!-- ########### JS Links Start ########## -->
+    <!-- Bootstrap Bundle with Propper -->
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- JQuery -->
+    <script defer src="js/jquery.min.js"></script>
+
+    <!-- Custom JS -->
+    <script defer src="js/script.js"></script>
+    <!-- ########### JS Links End ########## -->
+</head>
+
+<body>
+    <div class="banner-header">
+        <!-- header starts here -->
+        <header id="navbar">
+            <div class="container inner-nav d-flex justify-content-between align-items-center">
+                <div class="left">
+                    <a href="index.html">
+                        <img class="logo" src="img/logo.png" alt="" />
+                    </a>
+                </div>
+
+                <div class="right d-flex justify-content-between align-content-center">
+                    <ul class="main-menu mb-0 d-flex align-items-center">
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">about</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">Benefits</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">roadmap</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">Team</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">FAQs</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">shop</a>
+                        </li>
+                    </ul>
+
+                    <div class="social d-flex justify-content-between align-items-center">
+                        <div class="icons">
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-discord"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+
+                        <a href="#" class="mint-now">Mint now</a>
+                    </div>
+                </div>
+                <div id="menu-btn">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </div>
+        </header>
+        <!-- header ends here -->
+
+        <!-- banner area starts here -->
+        <section id="home">
+            <div class="container inner-home">
+                <h1 class="home-title">
+                    An exclusive collection of 1,000 unique non-fungible ERC-721 tokens (NFTs)
+                </h1>
+                <p class="home-desc">
+                    Passive Piggy Banks (PPB) is an exclusive collection of 1,000 unique non-fungible ERC-721 tokens (NFTs) on the Ethereum blockchain that provide holders with passive income through real estate investments, royalties, and more.
+                </p>
+            </div>
+        </section>
+        <!-- banner area ends here -->
+    </div>
+
+    <!-- benefits section starts here -->
+    <section id="benefits">
+        <div class="container inner-benefits">
+            <h2 class="heading">benefits</h2>
+
+            <div class="benefits-wrapper row g-5">
+                <div class="benefit-single col-xl-6 d-sm-flex align-items-center gap-5">
+                    <img src="img/benefit1.png" alt="benefit-img" class="benefit-img mb-4 mb-sm-0" />
+                    <p class="benefit-text">
+                        Passive income through monthly preferred returns (6-8% depending on rarity of NFT), as well as a share of all OpenSea royalties (depending on rarity of NFT).
+                    </p>
+                </div>
+                <div class="benefit-single col-xl-6 d-sm-flex align-items-center gap-5">
+                    <img src="img/benefit2.png" alt="benefit-img" class="benefit-img mb-4 mb-sm-0" />
+                    <p class="benefit-text">
+                        Access to exclusive events, PPB branded merchandise, and more
+                    </p>
+                </div>
+                <div class="benefit-single col-xl-6 d-sm-flex align-items-center gap-5">
+                    <img src="img/benefit3.png" alt="benefit-img" class="benefit-img mb-4 mb-sm-0" />
+                    <p class="benefit-text">Free vacation stays at PPB properties</p>
+                </div>
+                <div class="benefit-single col-xl-6 d-sm-flex align-items-center gap-5">
+                    <img src="img/benefit4.png" alt="benefit-img" class="benefit-img mb-4 mb-sm-0" />
+                    <p class="benefit-text">Mint pass for future PPB collections</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Swiper -->
+        <div id="benefits-sliders">
+            <div class="swiper-container" dir="rtl">
+                <div class="swiper mySwiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/benefit-slider-img1.png" alt="slider-img" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/benefit-slider-img2.png" alt="slider-img" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/benefit-slider-img3.png" alt="slider-img" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/benefit-slider-img4.png" alt="slider-img" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/benefit-slider-img5.png" alt="slider-img" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/benefit-slider-img5.png" alt="slider-img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/benefit-slider-img4.png" alt="slider-img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/benefit-slider-img3.png" alt="slider-img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/benefit-slider-img2.png" alt="slider-img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/benefit-slider-img1.png" alt="slider-img" />
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        </div>
+    </section>
+    <!-- benefits section ends here -->
+
+    <!-- roadmap section starts here -->
+    <section id="roadmap">
+        <div class="container inner-roadmap">
+            <h2 class="heading">roadmap</h2>
+
+            <div class="roadmap-content row">
+                <div class="roadmap-single-wrapper col-xxl-7">
+                    <div class="roadmap-info d-flex row">
+                        <div class="roadmap-percentage col-4 col-lg-3 text-end">
+                            <h3 class="heading">
+                                0%
+                                <p class="d-inline">.</p>
+                            </h3>
+                        </div>
+                        <div class="roadmap-text col-8 col-lg-9">
+                            <div class="roadmap-inner-text">
+                                Minting goes live. Presale will go live 24 hours prior to the main sale.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roadmap-info d-flex row row">
+                        <div class="roadmap-percentage col-4 col-lg-3 text-end">
+                            <h3 class="heading">
+                                20%
+                                <p class="d-inline">.</p>
+                            </h3>
+                        </div>
+                        <div class="roadmap-text col-8 col-lg-9">
+                            <p class="roadmap-inner-text">
+                                The PPB team will use funds raised to purchase real estate investments in our target market
+                            </p>
+                        </div>
+                    </div>
+                    <div class="roadmap-info d-flex row">
+                        <div class="roadmap-percentage col-4 col-lg-3 text-end">
+                            <h3 class="heading">
+                                40%
+                                <p class="d-inline">.</p>
+                            </h3>
+                        </div>
+                        <div class="roadmap-text col-8 col-lg-9">
+                            <p class="roadmap-inner-text">
+                                PPB holders will begin receiving their PPB Coins that can be used to redeem Ethereum and other rewards on our website. Rare and Legendary holders will receive monthly royalties paid in PPB Coin from marketplace activity.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="roadmap-info d-flex row">
+                        <div class="roadmap-percentage col-4 col-lg-3 text-end">
+                            <h3 class="heading">
+                                60%
+                                <p class="d-inline">.</p>
+                            </h3>
+                        </div>
+                        <div class="roadmap-text col-8 col-lg-9">
+                            <p class="roadmap-inner-text">
+                                PPB holders will begin receiving free vacation stays at PPB properties. These stays will be randomly selected amongst all holders, with guaranteed stays for rare and legendary holders.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="roadmap-info d-flex row">
+                        <div class="roadmap-percentage col-4 col-lg-3 text-end">
+                            <h3 class="heading">
+                                80%
+                                <p class="d-inline">.</p>
+                            </h3>
+                        </div>
+                        <div class="roadmap-text col-8 col-lg-9">
+                            <p class="roadmap-inner-text">
+                                PPB holders will receive free access to events to meet the team and get insights on operations.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="roadmap-info d-flex row">
+                        <div class="roadmap-percentage col-4 col-lg-3 text-end">
+                            <h3 class="heading">
+                                100%
+                                <p class="d-inline">.</p>
+                            </h3>
+                        </div>
+                        <div class="roadmap-text col-8 col-lg-9">
+                            <p class="roadmap-inner-text">
+                                Each PPB NFT will act as a mint pass for early access to all future PPB related projects or collections in different locations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="roadmap-img col-xxl-5">
+                    <img class="w-100 w-lg-75 float-end" src="img/roadmap.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- roadmap section ends here -->
+
+    <!-- team section starts here -->
+    <section id="team">
+        <div class="container inner-team">
+            <h2 class="heading text-center">the team</h2>
+            <div class="row g-5">
+                <div class="team-member col-sm-6 col-lg-4 col-xl-3">
+                    <img src="img/team-member1.png" alt="team-member" />
+                    <div class="team-member-bio">
+                        <h4 class="member-name">ryder</h4>
+                        <h5 class="position">co-founder</h5>
+                        <div class="member-icons">
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-member col-sm-6 col-lg-4 col-xl-3">
+                    <img src="img/team-member2.png" alt="team-member" />
+                    <div class="team-member-bio">
+                        <h4 class="member-name">logan</h4>
+                        <h5 class="position">co-founder</h5>
+                        <div class="member-icons">
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-member col-sm-6 col-lg-4 col-xl-3">
+                    <img src="img/team-member3.png" alt="team-member" />
+                    <div class="team-member-bio">
+                        <h4 class="member-name">muadin</h4>
+                        <h5 class="position">co-founder</h5>
+                        <div class="member-icons">
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-member col-sm-6 col-lg-4 col-xl-3">
+                    <img src="img/team-member4.png" alt="team-member" />
+                    <div class="team-member-bio">
+                        <h4 class="member-name">eric</h4>
+                        <h5 class="position">co-founder</h5>
+                        <div class="member-icons">
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team section ends here -->
+
+    <!-- Asked Questions Starts her -->
+    <section id="questions">
+        <div class="container inner-questions">
+            <h2 class="heading text-center">Frequently Asked Questions</h2>
+
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                1. When can I mint a PPB?
+              </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            You can mint your PPB on our website any time after April X, 2022. If you’re on the whitelist, you can mint your PPB 24 hours in advance of the public sale.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                2. Are all PPBs the same?
+              </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            You can mint your PPB on our website any time after April X, 2022. If you’re on the whitelist, you can mint your PPB 24 hours in advance of the public sale.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                3. How much does it cost to mint a PPB?
+              </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            You can mint your PPB on our website any time after April X, 2022. If you’re on the whitelist, you can mint your PPB 24 hours in advance of the public sale.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                4. How many PPBs are there?
+              </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            You can mint your PPB on our website any time after April X, 2022. If you’re on the whitelist, you can mint your PPB 24 hours in advance of the public sale.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                5. What if I have a question not covered in these FAQs?
+              </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            You can mint your PPB on our website any time after April X, 2022. If you’re on the whitelist, you can mint your PPB 24 hours in advance of the public sale.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!--  -->
+        </div>
+    </section>
+
+    <!-- Asked Questions Ends here -->
+
+    <!-- Foote Section Starts here -->
+    <footer id="footer">
+        <div class="container inner-footer">
+            <div class="row align-items-end">
+                <div class="col-md-4 footer-logo">
+                    <img src="img/footer-logo.png" alt="footer-logo" />
+                </div>
+                <div class="col-md-4 links text-capitalize row text-md-center">
+                    <a class="col-6" href="#">about</a>
+                    <a class="col-6" href="#">team</a>
+                    <a class="col-6" href="#">benefits</a>
+                    <a class="col-6" href="#">FAQs</a>
+                    <a class="col-6" href="#">roadmap</a>
+                    <a class="col-6" href="#">shop</a>
+                </div>
+                <div class="col-md-4 footer-icons text-md-end">
+                    <a href="#" class="social-item">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                    <a href="#" class="social-item">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-item">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-item">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer credit area -->
+        <div class="container-fluid footer-credit">
+            <p>&copy; 2022 - Passive Piggy Banks - All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer Section Ends here -->
+</body>
+
+</html>

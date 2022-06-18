@@ -1,0 +1,589 @@
+/* Common CSS Starts Here */
+
+@font-face {
+    font-family: "Widy";
+    src: url(../fonts/WidyMedium.woff);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Widy";
+    src: url(../fonts/WidyRegular.woff);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "NeueHass";
+    src: url(../fonts/NeueHaasDisplayBlack.woff);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "NeueHass";
+    src: url(../fonts/NeueHaasDisplayMediu.woff);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "NeueHass";
+    src: url(../fonts/NeueHaasDisplayRoman.woff);
+    font-style: normal;
+    font-weight: 400;
+}
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --green: #57f287;
+    /* --orangered: #DE3535;
+    --pink: #F1B8D0;
+    --blue: #4C379E;
+    --aliah: #E08463;
+    --yellow: # */
+    /* --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    --outline: 0.1rem solid rgba(0, 0, 0, 0.1);
+    --outline-hover: 0.2rem solid var(--black); */
+}
+
+*,
+::after,
+::before,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 1.6rem;
+    font-family: "Widy", sans-serif;
+}
+
+section:not(section#home) {
+    padding: 8rem 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.8rem;
+    color: var(--green);
+    margin-bottom: 4rem;
+}
+
+
+/* Common CSS Ends Here */
+
+.banner-header {
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    margin-bottom: 8rem;
+}
+
+
+/* Navabar css starts here */
+
+#navbar .container {
+    max-width: 1578px;
+}
+
+#menu-btn {
+    display: none;
+    color: var(--green);
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.main-menu .menu-item {
+    margin-right: 4rem;
+}
+
+.main-menu .menu-link {
+    font-size: 1.8rem;
+    display: block;
+}
+
+.main-menu .menu-link:hover {
+    color: var(--green);
+}
+
+.social {
+    margin-left: 2rem;
+}
+
+.social .social-item {
+    margin-right: 0.5rem;
+}
+
+.social .social-item i {
+    font-size: 1.3rem;
+    background-color: var(--black);
+    color: var(--green);
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+
+.social .social-item:hover i {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+.social .mint-now {
+    font-size: 1.8rem;
+    font-family: "NeueHass";
+    font-weight: 600;
+    background-color: var(--green);
+    border: 1px solid var(--green);
+    color: var(--black);
+    padding: 1.5rem 3rem;
+    border-radius: 6rem;
+    margin-left: 3rem;
+    word-spacing: 3px;
+}
+
+.social .mint-now:hover {
+    background: none;
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+
+/* Navabar css ends here */
+
+
+/* Home CSS Starts here */
+
+#home {
+    padding: 10rem 0;
+}
+
+#home .container {
+    max-width: 1467px;
+}
+
+.home-title {
+    font-weight: 500;
+    font-size: 6.5rem;
+    line-height: 1.3;
+    text-align: center;
+    color: var(--green);
+    margin-bottom: 4rem;
+}
+
+.home-desc {
+    max-width: 927px;
+    margin: auto;
+    font-family: "NeueHass";
+    font-size: 2.4rem;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* Home CSS Ends here */
+
+
+/* Benefits CSS Starts here */
+
+#benefits .container {
+    max-width: 1524px;
+}
+
+.benefit-text {
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+#benefits-sliders {
+    margin-top: 15rem;
+}
+
+.swiper-container {
+    margin-bottom: 2.5rem;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+
+/* Benefits CSS Ends here */
+
+
+/* Roadmap CSS Starts here */
+
+#roadmap .container {
+    max-width: 1600px;
+}
+
+.roadmap-inner-text {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-family: "NeueHass";
+    padding-bottom: 2rem;
+}
+
+.roadmap-percentage .heading {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.roadmap-percentage {
+    position: relative;
+}
+
+.roadmap-percentage::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 2rem;
+    height: 100%;
+    border-right: 2px dashed var(--green);
+}
+
+
+/* Roadmap CSS Ends here */
+
+
+/* Team CSS Starts here */
+
+#team .container {
+    max-width: 1600px;
+}
+
+.team-member-bio {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.team-member img {
+    width: 100%;
+}
+
+.member-name {
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: var(--green);
+    text-transform: capitalize;
+}
+
+.position {
+    font-size: 2.4rem;
+    font-family: "NeueHass";
+    font-weight: 400;
+}
+
+.member-icons {
+    margin-top: 2rem;
+}
+
+.member-icons a i {
+    font-size: 1.4rem;
+    padding: 1rem;
+    background-color: var(--green);
+    color: var(--black);
+    border: 1px solid var(--green);
+    border-radius: 50%;
+}
+
+.member-icons a i:hover {
+    background: none;
+    color: var(--green);
+}
+
+
+/* Team CSS Ends here */
+
+
+/* Asked Questions Starts here */
+
+#questions .container {
+    max-width: 1320px;
+}
+
+.accordion {
+    --bs-accordion-color: var(--white);
+    --bs-accordion-bg: var(--black);
+}
+
+.accordion-button {
+    color: var(--white);
+    font-size: 3.2rem;
+    line-height: 1.5;
+    background: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--green);
+}
+
+.accordion-button::after {
+    position: absolute;
+    background-image: none;
+    content: "+";
+    transform: none;
+    right: 1rem;
+    transform: translate(0, -140%);
+}
+
+
+/* .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "-" !important;
+    transform: none;
+} */
+
+.accordion-button:not(.collapsed)::after {
+    position: absolute;
+    background-image: none;
+    content: "-";
+    transform: none;
+    right: 1rem;
+    transform: translate(0, -140%);
+}
+
+.accordion-item {
+    margin-bottom: 5rem;
+    border: none;
+}
+
+.accordion-body {
+    font-size: 2.2rem;
+    font-family: "NeueHass";
+}
+
+
+/* Asked Questions Ends here */
+
+
+/* Footer CSS Starts here */
+
+#footer .container {
+    max-width: 1600px;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.inner-footer .links a {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.inner-footer .links a:hover {
+    color: var(--green);
+}
+
+.footer-icons .social-item {
+    margin-left: 0.5rem;
+}
+
+.footer-icons .social-item i {
+    font-size: 3rem;
+    padding: 2rem;
+    background-color: var(--green);
+    color: var(--black);
+    border-radius: 50%;
+    border: 1px solid var(--green);
+}
+
+.footer-icons .social-item i:hover {
+    background: none;
+    color: var(--green);
+}
+
+.footer-credit {
+    margin-top: 5rem;
+    background: var(--green);
+    padding: 2rem 0;
+    color: var(--black);
+    text-align: center;
+}
+
+
+/* Footer CSS Ends here */
+
+
+/*  */
+
+
+/*  */
+
+
+/* media queries starts here */
+
+@media only screen and (max-width: 1300px) {
+    /* header */
+    #navbar {
+        background-color: var(--black);
+        padding-bottom: 1rem;
+    }
+    .right {
+        flex-direction: column;
+        position: absolute;
+        /* width: 100%; */
+        top: 100px;
+        left: 0;
+        right: 0;
+        background-color: var(--black);
+        padding: 1rem 0;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: all 0.3s linear;
+        border-top: solid;
+    }
+    .main-menu {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .main-menu .menu-item {
+        /* margin: 0.5rem 0; */
+        width: 100%;
+        border-bottom: 1px solid #1b2031;
+    }
+    .main-menu .menu-item:hover {
+        background: #1b1f3a;
+        padding: 0 0.5rem;
+    }
+    .main-menu .menu-link {
+        padding: 0.5rem 0.75rem;
+    }
+    .social {
+        margin-left: 0.75rem;
+        margin-top: 1rem;
+    }
+    .social .social-item i {
+        font-size: 1.4rem;
+        background-color: #1b1f3a;
+        padding: 1rem;
+    }
+    .showMenu {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    #menu-btn {
+        display: block;
+    }
+    .social .mint-now {
+        margin: 0 0.75rem;
+        padding: 0.7rem 2rem;
+    }
+    /* home */
+    .home-title {
+        font-size: 4.5rem;
+        margin-bottom: 2rem;
+    }
+    .home-desc {
+        font-size: 2.2rem;
+        padding: 0 3rem;
+    }
+    /* .roadmap-single-wrapper {
+        width: 100%;
+    }
+    .roadmap-img {
+        width: 100%;
+    } */
+}
+
+@media only screen and (max-width: 1199.98px) {
+    .roadmap-inner-text {
+        font: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .heading {
+        font-size: 3.2rem;
+    }
+    .inner-home .home-title {
+        font-size: 3rem;
+    }
+    .inner-home .home-desc {
+        font-size: 1.8rem;
+    }
+    .benefit-text {
+        font-size: 1.6rem;
+    }
+    .footer-icons .social-item i {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .inner-footer>div>div {
+        margin-bottom: 3rem;
+    }
+    .footer-logo {
+        width: auto;
+    }
+    .footer-icons {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    /* home */
+    #home {
+        padding: 5rem 0;
+    }
+    .roadmap-percentage .heading {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    html {
+        font-size: 52%;
+    }
+    /* home */
+    .home-desc {
+        padding: 0 1rem;
+    }
+    .roadmap-percentage .heading {
+        font-size: 2.5rem;
+    }
+}
+
+
+/* media queries ends here */
